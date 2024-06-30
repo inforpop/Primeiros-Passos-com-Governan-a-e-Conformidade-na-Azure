@@ -1,0 +1,48 @@
+Governança e conformidade são aspectos críticos na gestão de recursos em nuvem, especialmente em plataformas como o Azure. Eles garantem que os recursos sejam utilizados de maneira eficiente, segura e dentro das políticas e regulamentos da organização. Aqui estão alguns passos iniciais para estabelecer governança e conformidade no Azure:
+
+### 1. **Definir Políticas e Procedimentos**
+
+- **Políticas de Segurança**: Defina políticas de segurança claras, como requisitos de senha, controle de acesso e criptografia de dados.
+- **Políticas de Conformidade**: Certifique-se de que suas políticas atendam aos requisitos legais e regulatórios aplicáveis, como GDPR, HIPAA, etc.
+- **Procedimentos Operacionais**: Documente procedimentos para provisionamento, gerenciamento e desativação de recursos.
+
+### 2. **Usar o Azure Policy**
+
+- **Definição de Políticas**: Utilize o Azure Policy para criar e aplicar políticas em sua assinatura do Azure. Isso ajuda a impor regras e garantir a conformidade.
+- **Iniciativas de Políticas**: Agrupe várias políticas em uma iniciativa para aplicar uma estratégia de governança mais ampla.
+
+### 3. **Implementar o Azure Blueprints**
+
+- **Modelos de Governança**: Use o Azure Blueprints para definir modelos de governança que podem ser repetidamente implementados em diferentes ambientes do Azure.
+- **Automatização de Implantações**: Automatize a implantação de ambientes que atendam a padrões de conformidade específicos.
+
+### 4. **Gerenciamento de Identidades e Acessos**
+
+- **Azure AD**: Configure e gerencie identidades usando o Azure Active Directory (Azure AD).
+- **RBAC**: Utilize o Controle de Acesso Baseado em Funções (RBAC) para gerenciar quem tem acesso ao quê no Azure.
+- **Privileged Identity Management (PIM)**: Use o PIM para gerenciar, controlar e monitorar o acesso aos recursos do Azure.
+
+### 5. **Monitoramento e Relatórios**
+
+- **Azure Monitor**: Configure o Azure Monitor para coletar, analisar e agir sobre dados de telemetria de seus recursos do Azure.
+- **Log Analytics**: Utilize o Log Analytics para consultar e analisar logs de suas operações no Azure.
+- **Security Center**: Use o Azure Security Center para obter visibilidade de suas posturas de segurança e recomendações de ações.
+
+### 6. **Backup e Recuperação**
+
+- **Azure Backup**: Configure políticas de backup para garantir que dados e aplicativos críticos sejam protegidos.
+- **Site Recovery**: Use o Azure Site Recovery para configurar estratégias de recuperação de desastres.
+
+### 7. **Treinamento e Capacitação**
+
+- **Treinamento Contínuo**: Ofereça treinamento regular para sua equipe sobre as melhores práticas de governança e conformidade no Azure.
+- **Certificações**: Incentive a obtenção de certificações Azure relevantes para garantir que sua equipe esteja atualizada com as melhores práticas e padrões da indústria.
+
+### 8. **Auditorias e Revisões Regulares**
+
+- **Auditorias Internas**: Realize auditorias internas regulares para garantir que as políticas e procedimentos estejam sendo seguidos.
+- **Revisões de Conformidade**: Faça revisões periódicas para garantir que sua organização continua a atender a todos os requisitos regulatórios e de conformidade.
+
+### Conclusão
+
+A implementação de uma estratégia robusta de governança e conformidade no Azure requer uma combinação de políticas bem definidas, ferramentas adequadas e treinamento contínuo. Ao seguir esses passos, sua organização estará melhor posicionada para gerenciar seus recursos do Azure de maneira segura, eficiente e conforme os regulamentos aplicáveis.
